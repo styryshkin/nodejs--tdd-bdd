@@ -26,6 +26,5 @@ if (require.main === module) {
   console.info('Running app as a module')
   exports.boot = boot
   exports.shutdown = shutdown
-  exports.port = app.get('port')
+  exports.port = app.get('port');
 }
-
